@@ -13,4 +13,4 @@ This project has only one requirement:
 
 ## ✨ Features:
 + User can enter 2 numbers seperately and choose to either add, subtract, multiply or divide them.
-- ![image](https://github.com/Squing0/CalculatorC-Academy/assets/119138371/41e4a944-f0b2-4e5c-9b29-4e5707e516bc)
+- ![image](https://github.com/Squing0/CalculatorC-Academy/assets/119138371/75be61ce-ade8-41c1-8cc8-f4dc3ad31e89)
