@@ -1,4 +1,5 @@
-﻿internal class Program
+﻿using CalculatorLibrary;
+internal class Program
 {
     private static void Main(string[] args)
     {
@@ -7,6 +8,7 @@
         Console.WriteLine("Console Calculator in C#\r");
         Console.WriteLine("------------------------\n");
 
+        Calculator calculator = new();
         while (!endApp)
         {
             string numInput1 = "";
@@ -44,7 +46,7 @@
 
             try
             {
-                result = Calculator.Calculator.DoOperation(cleanNum1, cleanNum2, op);
+                result = calculator.DoOperation(cleanNum1, cleanNum2, op);
                 if (double.IsNaN(result))
                 {
                     Console.WriteLine("This operation will result in a mathematical error.\n");
@@ -69,6 +71,7 @@
             Console.WriteLine("\n");
 
         }
+        calculator.Finish();
         return;
     }
 }
